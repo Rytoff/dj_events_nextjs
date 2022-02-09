@@ -1,7 +1,9 @@
-export default function EventPage({slag}) {
+import Layout from '../../components/Layout'
+
+export default function EventPage() {
   return (
-    <>
-      <h1>My Event {slag}</h1>
-    </>
+    <Layout>
+      <h1>My Event</h1>
+    </Layout>
   )
 }
